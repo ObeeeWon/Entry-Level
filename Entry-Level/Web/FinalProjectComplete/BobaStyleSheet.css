@@ -1,0 +1,405 @@
+@charset "utf-8";
+
+header  {
+    background-image: url(bobabanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    color: #6C584C;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #6C584C;
+    border-radius: 8px;
+    text-align: left;
+    display: flex;
+    align-items: center; 
+    position: relative; 
+}
+/*From Tsira*/
+div.left-img img {
+    width: 350px; 
+    height: auto; 
+    margin-right: none;
+}
+/*From Tsira*/
+  div.left-img {
+    display: flex;
+    justify-content: flex-start;
+    height: 300px; 
+    align-items: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0EAD2;
+    text-align: center;
+    color: #6C584C;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #6C584C;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: medium;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #F0EAD2;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #6C584C;
+    border-radius: 8px;
+    background-color: #6C584C;
+}
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    margin-right: 8px;
+    width: 13%;
+    height: 100%;
+    background-color: #6C584C;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #F0EAD2;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+nav ul li div.dropdown {
+    float: left;
+    overflow: hidden;
+    color: #f0dbd2;
+    text-decoration: none;
+    font-size: xx-large;
+    
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #F0EAD2;
+    padding: 0px 3px;
+    font-weight: bold;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ADC178;
+    border-radius: 8px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6C584C;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #ADC178;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ADC178;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.dropdown-content a:hover {
+    background-color: #A98467;
+    border-radius: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 8px;
+    
+}
+
+nav ul li:hover {
+    background-color: #ADC178;
+}
+
+
+
+.container  {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+/*From Tsira*/
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+/*From Tsira*/
+  .container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+img.boba1 {
+    max-width: 100%;
+    max-height: 75%;
+    padding: 50px;
+    border-radius: 80px;
+    width: 700px;
+    height: 450px;
+}
+
+img.boba2 {
+    max-width: 100%;
+    max-height: 75%;
+    padding: 50px;
+    border-radius: 80px;
+    width: 700px;
+    height: 450px;
+}
+
+img.bobaClassic {
+    max-width: 100%;
+    max-height: 75%;
+    padding: 50px;
+    border-radius: 80px;
+    width: 600px;
+    height: 750px;
+}
+
+img.bobaCaramel {
+    max-width: 100%;
+    max-height: 75%;
+    padding: 50px;
+    border-radius: 80px;
+    width: 600px;
+    height: 750px;
+}
+
+img.bobaChocolate {
+    max-width: 100%;
+    max-height: 75%;
+    padding: 50px;
+    border-radius: 80px;
+    width: 600px;
+    height: 750px;
+}
+
+img.bobaStrawBerry {
+    max-width: 100%;
+    max-height: 75%;
+    padding: 50px;
+    border-radius: 80px;
+    width: 600px;
+    height: 750px;
+}
+
+img.bobaBlackTea {
+    max-width: 100%;
+    max-height: 75%;
+    padding: 50px;
+    border-radius: 80px;
+    width: 600px;
+    height: 750px;
+}
+
+img.bobaMatcha {
+    max-width: 100%;
+    max-height: 75%;
+    padding: 50px;
+    border-radius: 80px;
+    width: 600px;
+    height: 750px;
+}
+
+.text   {
+    font-size: 20px;
+    padding: 70px;
+    float: right;
+}
+
+.text2  {
+    font-size: 20px;
+    padding: 70px;
+    float: left;
+}
+
+.boba1  {
+    float: left;
+}
+
+.boba2  {
+    float: right;
+}
+
+h2  {
+    padding-left: 70px;
+    font-size: 40px;
+    color: #6C584C;
+}
+
+.product    {
+    text-align: center;
+}
+
+/*From Feng*/
+.Invitation {
+    text-align:center;
+    font-weight: bold;
+    color: #6C584C;
+  }
+  /*From Feng*/
+  .GiftExchange {
+      width: 100%;
+      display: block;
+    font-weight: bold;
+    color: #6C584C;
+  }
+  /*From Feng*/
+  .Buy2get1{
+    width: 100%;
+      display: block;
+    font-weight: bold;
+    color: #6C584C;
+  }
+  /*From Feng*/
+  
+  .question{
+    font-weight: bold;
+    color: #6C584C;
+  }
+  /*From Feng*/
+  .Picture {
+    border-radius: 8px;
+    vertical-align:middle;
+  }
+  /*From Feng*/
+  #TopPicture{  
+    width:820px;
+    border-radius: 8px;
+    vertical-align:middle;
+  }
+  /*From Feng*/
+  #BubbleTea{
+    width:820px;
+    border-radius: 8px;
+    vertical-align:middle;
+  }
+  /*From Feng*/
+  #pl3{
+    width:820px;
+    vertical-align:middle;
+  }
+/*From Tsira*/
+  .frame {
+    width: 30%; 
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+/*From Tsira*/
+  .rounded-image {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+/*From Tsira*/
+  .rounded-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+/*From Tsira*/
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+/*From Tsira*/
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/*From Tsira*/
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+/*From Tsira*/
+  p {
+    margin-bottom: 10px;
+  }
+/*From Tsira*/
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+/*From Tsira*/
+  a:hover {
+    text-decoration: underline;
+  }
+/*From Tsira*/
+  img.container2 {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+/*From Tsira*/
+  img.container2:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+/*From Tsira*/
+  a[href*="facebook"] img {
+    width: 40px; 
+  }
+/*From Tsira*/
+  a[href*="twitter"] img {
+    width: 40px; 
+  }
+/*From Tsira*/
+  div.contact  {
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  div.container2    {
+    text-align: left;
+  }
+
